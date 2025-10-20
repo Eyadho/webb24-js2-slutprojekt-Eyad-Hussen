@@ -1,6 +1,6 @@
 # webb24-js2-slutprojekt-Eyad-Hussen
 
-#Webbshop
+#A simple webshop project built with **React** and **Firebase**.
 
 # Getting Started with Create React App
 
