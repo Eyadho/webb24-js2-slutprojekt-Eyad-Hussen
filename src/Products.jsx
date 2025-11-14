@@ -41,9 +41,10 @@ function ProductPage({ addToCart }) {
             <h4 style={{textTransform: "capitalize" }}>{product.name}</h4>
             <p>Pris: {product.price} kr</p>
             <p>Lagersaldo: {product.number}</p>
-            <button
+            {product.number > 0 ? (
+              <button
               onClick={() => addToCart(product)}
-              disabled={product.number <= 0}
+              // disabled={product.number <= 0}
               style={{    fontSize: "16px",
     padding: "12px 30px",
     color: "white",
@@ -62,3 +63,4 @@ function ProductPage({ addToCart }) {
 }
 
 export default ProductPage;
+
