@@ -11,6 +11,11 @@ function App() {
   const addToCart = (product) => {
     const existing = cart.find((item) => item.id === product.id);
     if (existing) {
+      if (existing.quantity >= product.number) {
+        alert("Slut i lager");
+        return;
+      }
+      
       setCart(
         cart.map((item) =>
           item.id === product.id
