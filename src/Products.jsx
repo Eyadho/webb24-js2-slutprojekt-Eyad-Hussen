@@ -22,8 +22,9 @@ function ProductPage({ addToCart }) {
     <div style={{ padding: "20px", textAlign: "center" }}>
       <h2 style={{marginBottom: "60px"}}>Produkter</h2>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center", alignItems: "center", }}>
-        {products.map((product) => (<>
-          <div
+        {products.map((product) => (
+          <div className="cards">
+            <div
             key={product.id}
             style={{
             //   border: "1px solid #ccc",
@@ -32,7 +33,7 @@ function ProductPage({ addToCart }) {
               width: "200px",
               textAlign: "center",
             }}
-          >
+            >
             <img
               src={product.image}
               alt={product.name}
@@ -46,22 +47,26 @@ function ProductPage({ addToCart }) {
               onClick={() => addToCart(product)}
               // disabled={product.number <= 0}
               style={{    fontSize: "16px",
-    padding: "12px 30px",
-    color: "white",
-    borderRadius: "40px",
-    border: "none",
-    background: "#c70e0e"
-    }}
+              padding: "12px 30px",
+              color: "white",
+              borderRadius: "40px",
+              border: "none",
+              background: "#c70e0e"
+            }}
             >
               Lägg till i kundvagn
             </button>
+            ): (<p style={{color: "gray"}}>Slut i lager</p>)}
+            
           </div>
-        </>))}
+          </div>
+        ))}
       </div>
     </div>
   );
 }
 
 export default ProductPage;
+
 
 
