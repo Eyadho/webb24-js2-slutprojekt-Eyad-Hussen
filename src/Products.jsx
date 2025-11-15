@@ -22,7 +22,7 @@ function ProductPage({ addToCart }) {
     <div style={{ padding: "20px", textAlign: "center" }}>
       <h2 style={{marginBottom: "60px"}}>Produkter</h2>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center", alignItems: "center", }}>
-        {products.map((product) => (
+        {products.map((product) => (<>
           <div
             key={product.id}
             style={{
@@ -56,11 +56,12 @@ function ProductPage({ addToCart }) {
               Lägg till i kundvagn
             </button>
           </div>
-        ))}
+        </>))}
       </div>
     </div>
   );
 }
 
 export default ProductPage;
+
 
