@@ -3,7 +3,7 @@
 This is a simple single-page webshop built with React and Firebase Firestore.
 Users can view products, add them to a shopping cart, and complete a purchase.
 
-# 🚀 Features
+#1 🚀 Features:
 🛒 Products Page
 
 Displays at least 5 products
