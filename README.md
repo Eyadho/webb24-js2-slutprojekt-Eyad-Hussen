@@ -6,43 +6,43 @@ Users can view products, add them to a shopping cart, and complete a purchase.
 # 🚀 Features:
 ## 🛒 Products Page
 
-Displays at least 5 products
+* Displays at least 5 products
 
-Each product shows:
+* Each product shows:
 ✔ Name
 ✔ Image
 ✔ Price
 ✔ Stock (real-time from Firebase)
 
-Products can be added to the cart only if stock > 0
+* Products can be added to the cart only if stock > 0
 
 ## 🧺 Cart Page
 
-Shows how many of each product are in the cart
+* Shows how many of each product are in the cart
 
-Shows total price
+* Shows total price
 
-User can:
+* User can:
 ✔ Complete the purchase (updates stock in Firebase)
 ✔ Empty the cart
 ✔ See a success message after purchase
 
 ## 🔝 Navbar
 
-Navigate between Products and Cart
+* Navigate between Products and Cart
 
-Always shows total number of items in the cart
+* Always shows total number of items in the cart
 
 
 # 🔧 Technologies Used
 
 * React
 
-JavaScript
+* JavaScript
 
-Firebase Firestore
+* Firebase Firestore
 
-CSS
+* CSS
 
 
 
