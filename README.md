@@ -34,6 +34,16 @@ Navigate between Products and Cart
 Always shows total number of items in the cart
 
 
+# 🔧 Technologies Used
+
+* React
+
+JavaScript
+
+Firebase Firestore
+
+CSS
+
 
 
 # Getting Started with Create React App
