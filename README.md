@@ -1,4 +1,4 @@
-# 📦 # React Webshop – Firebase Project
+# 📦 React Webshop – Firebase Project
 
  his is a simple single-page webshop built with React and Firebase Firestore.
 Users can view products, add them to a shopping cart, and complete a purchase.
