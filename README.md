@@ -1,10 +1,10 @@
 # 📦 React Webshop – Firebase Project
 
- his is a simple single-page webshop built with React and Firebase Firestore.
+This is a simple single-page webshop built with React and Firebase Firestore.
 Users can view products, add them to a shopping cart, and complete a purchase.
 
 # 🚀 Features
-# 🛒 Products Page
+🛒 Products Page
 
 Displays at least 5 products
 
@@ -16,7 +16,7 @@ Each product shows:
 
 Products can be added to the cart only if stock > 0
 
-# 🧺 Cart Page
+🧺 Cart Page
 
 Shows how many of each product are in the cart
 
@@ -27,7 +27,7 @@ User can:
 ✔ Empty the cart
 ✔ See a success message after purchase
 
-# 🔝 Navbar
+🔝 Navbar
 
 Navigate between Products and Cart
 
