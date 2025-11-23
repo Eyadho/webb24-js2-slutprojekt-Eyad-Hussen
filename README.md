@@ -3,9 +3,38 @@
  his is a simple single-page webshop built with React and Firebase Firestore.
 Users can view products, add them to a shopping cart, and complete a purchase.
 
-# webb24-js2-slutprojekt-Eyad-Hussen
+# 🚀 Features
+# 🛒 Products Page
 
-#A simple webshop project built with **React** and **Firebase**.
+Displays at least 5 products
+
+Each product shows:
+✔ Name
+✔ Image
+✔ Price
+✔ Stock (real-time from Firebase)
+
+Products can be added to the cart only if stock > 0
+
+# 🧺 Cart Page
+
+Shows how many of each product are in the cart
+
+Shows total price
+
+User can:
+✔ Complete the purchase (updates stock in Firebase)
+✔ Empty the cart
+✔ See a success message after purchase
+
+# 🔝 Navbar
+
+Navigate between Products and Cart
+
+Always shows total number of items in the cart
+
+
+
 
 # Getting Started with Create React App
 
