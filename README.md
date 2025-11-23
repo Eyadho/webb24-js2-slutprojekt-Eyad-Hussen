@@ -1,3 +1,8 @@
+📦 React Webshop – Firebase Project
+
+This is a simple single-page webshop built with React and Firebase Firestore.
+Users can view products, add them to a shopping cart, and complete a purchase.
+
 # webb24-js2-slutprojekt-Eyad-Hussen
 
 #A simple webshop project built with **React** and **Firebase**.
